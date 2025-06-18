@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>गैलरी - Jan Seva Kendra</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Devansh Jan Seva Kendra</h1>
+      <p>आपके क्षेत्र की भरोसेमंद डिजिटल सेवा</p>
+    </div>
+     <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Hero Section -->
+
+  
+  <!-- Carousel Section -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="../assets/images/banner.jpeg" alt="Image 1">
+        <img src="../assets/images/img1.jpeg" alt="Image 2">
+        <img src="../assets/images/img2.jpeg" alt="Image 3">
+        <img src="../assets/images/img3.jpeg" alt="Image 4">
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+  
+  <section class="hero" style="background: #fce4ec; color: #222;">
+    <div class="hero-content">
+      <h1>सेवाओं की झलक</h1>
+      <p>हमारे केंद्र में होने वाली सेवाओं और कार्यों की कुछ तस्वीरें।</p>
+    </div>
+  </section>
+
+  <section class="gallery-grid">
+    <img src="../assets/images/gallery1.jpg" alt="Service 1" />
+    <img src="../assets/images/gallery2.jpg" alt="Service 2" />
+    <img src="../assets/images/gallery3.jpg" alt="Service 3" />
+    <img src="../assets/images/gallery4.jpg" alt="Service 4" />
+  </section>
+
+  <footer>
+    <p>© 2025 Devansh Jan Seva Kendra. सभी अधिकार सुरक्षित।</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
